@@ -1,0 +1,82 @@
+/**
+ Copyright (C) 2024 Maider Huarte Arrayago - Modified by Erlantz Alonso Santamarina
+
+ estiloa.css is part of ZTA_P2-1_LAGUNTZA.zip.
+
+ ZTA_P2-1_LAGUNTZA.zip is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 or any later version.
+
+ ZTA_P2-1_LAGUNTZA.zip is distributed for LEARNING PURPOSES ONLY, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details <http://www.gnu.org/licenses/>.
+*/
+
+/*Orria goitik behera batera egin dadin*/
+html{
+	height: 100%;
+	overflow: hidden;
+}
+
+/*Gorputza polita jartzeko apur bat*/
+body{
+/*Serifak ez ditut gustuko*/
+	font-family: Ubuntu;
+	height: 100%;
+	width: 95%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	overflow: scroll;
+}
+
+/*Titulu handiak zentratuta*/
+h1 {
+	text-align: center;
+}
+/*Bigarren tituluak ezkerretara*/
+h2 {
+	text-align: left;
+	margin-left: 2.5%;
+}
+
+
+/*Taulen ertzak desaktibatu ditut defektuz, ertzak dituzten taulak ez dituztenak baino gutiago direlako.*/
+table, td, th {
+	border: 0px;
+}
+
+/*Taulen buruetan gauzak ezberdinak dira*/
+th {
+	background: green;
+	color: white;
+}
+
+/*Irudiak zentratuta*/
+img {
+	margin-left: 25%;
+	margin-right: 25%;
+	width: 50%;
+}
+
+/*Index-eko botoiak politago jartzeko*/
+.inputHandia {height:5vh; width:15vw}
+
+/*Proba orrien itxura*/
+.proba {
+	background-image: linear-gradient(to top, #232323, #343434, #343434, #343434, #343434, #343434, #343434, #343434, #343434, #343434);
+	background-size: contain;
+	background-repeat: no-repeat;
+	color: white;
+}
+.warning {color: black; font-weight: bold; text-align: center; font-size:32px; width:75%; margin-left:12.5%; margin-right:12.5%; background-image: linear-gradient(to left, purple, blue, cyan, green, yellow, orange, red)}
+.warningLite {color: black; font-weight: regular; text-align: center; font-size:32px; width:75%; margin-left:12.5%; margin-right:12.5%; background-image: linear-gradient(to left, purple, blue, cyan, green, yellow, orange, red)}
+
+.tableErdiratuta {width: 50%; margin:5%; margin-left: 25%; margin-right: 25%; text-align: center;};
+.tdErdiratuta {text-align: center;}
+
+/*Ertzak dituzten taulak gutxiago dira ertzik ez dituztenak baino!*/
+.borderIkusgarria {border: 1px solid green;}
+.borderIkustezina {border: 0px;}
+
+/*Estilo dudosoa-edo, beltzak zuri eta zuriak beltz. Gauean lan egiteko egokiagoa-edo*/
+.darkmode {color:white; background:#101010; border-radius: 2px; background-image: linear-gradient(to top, #101010, #242424, #242424, #242424, #242424, #242424, #242424, #242424)}
+
+.gorria {color: darkred; font-weight: bold;} /*gorria*/
+.laranja {color: orange; font-weight: bold;} /*laranja*/
+.berdea {color: green; font-weight: bold;} /*berdea*/
