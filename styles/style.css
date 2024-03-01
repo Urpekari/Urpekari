@@ -8,12 +8,20 @@ html{
 /*Gorputza polita jartzeko apur bat*/
 body{
 /*Serifak ez ditut gustuko*/
-	font-family: Ubuntu;
+	font-family: Sans-Serif;
 	height: 100%;
 	width: 95%;
 	margin-left: 2.5%;
 	margin-right: 2.5%;
 	overflow: scroll;
+}
+
+p{
+
+	margin-left: 35%;
+	margin-right: 35%;
+	text-align: justify;
+
 }
 
 /*Titulu handiak zentratuta*/
@@ -29,8 +37,6 @@ h2 {
 /*Taulen ertzak desaktibatu ditut defektuz, ertzak dituzten taulak ez dituztenak baino gutiago direlako.*/
 table, td, th {
 	border: 0px;
-	width: 40%;
-	margin: 5%;
 }
 
 /*Taulen buruetan gauzak ezberdinak dira*/
@@ -39,14 +45,21 @@ th {
 	color: white;
 }
 
-/*Irudiak zentratuta*/
-/*
-img {
-	margin-left: 25%;
-	margin-right: 25%;
-	width: 50%;
+.navBanner{
+
+	color:white;
+	font-weight: bold;
+	font-size: 24px;
+	background:#FFA500;
+	background-image: linear-gradient(to right , #00494C, #00494C, #236D2B, #414811, #71350B, #71220B, #71220B, #71220B, #71220B, #71220B)
+
 }
-*/
+
+.navPanel{
+
+	width: 25vw;
+
+}
 
 /*Estilo dudosoa-edo, beltzak zuri eta zuriak beltz. Gauean lan egiteko egokiagoa-edo*/
 .darkmode {color:white; background:#101010; border-radius: 2px; background-image: linear-gradient(to top, #101010, #242424, #242424, #242424, #242424, #242424, #242424, #242424)}
