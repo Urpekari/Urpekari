@@ -17,24 +17,23 @@ body{
 }
 
 p{
-
-	margin-left: 35%;
-	margin-right: 35%;
+	margin-left: 15%;
+	margin-right: 15%;
 	text-align: justify;
 
 }
 
-/*Titulu handiak zentratuta*/
+/*Large centered title(s)*/
 h1 {
 	text-align: center;
 }
-/*Bigarren tituluak ezkerretara*/
+/*Large left-alligned title(s)*/
 h2 {
 	text-align: left;
 	margin-left: 2.5%;
 }
 
-/*Taulen ertzak desaktibatu ditut defektuz, ertzak dituzten taulak ez dituztenak baino gutiago direlako.*/
+/*Invisible tables by default*/
 table, td, th {
 	border: 0px;
 }
@@ -46,19 +45,21 @@ th {
 }
 
 .navBanner{
-
 	color:white;
 	font-weight: bold;
 	font-size: 24px;
 	background:#FFA500;
 	background-image: linear-gradient(to right , #00494C, #00494C, #236D2B, #414811, #71350B, #71220B, #71220B, #71220B, #71220B, #71220B)
-
 }
 
 .navPanel{
-
 	width: 25vw;
+}
 
+.hiddenLink{
+	color:white;
+	font-weight: bold;
+	font-size: 24px;
 }
 
 /*Estilo dudosoa-edo, beltzak zuri eta zuriak beltz. Gauean lan egiteko egokiagoa-edo*/
